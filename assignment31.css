@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.deafult-bg-color {
+    background-color: #f9f9ff;
+}
+
+
+/* about-me-section */
+
+.about-text-left {
+    margin-top: 160px;
+}
+
+.about-text-left a {
+    background-color: #8490ff;
+}
+
+.details-text-right {
+    margin-top: 50px;
+}
+
+.details-text-right a {
+    background-color: #8490ff;
+}
+
+
+/* number-counter */
+
+.number-counter {
+    background-color: #8490ff;
+    padding: 100px 0;
+}
+
+.economy-section {
+    padding: 100px 0;
+    background-color: #f9f9ff;
+}
+
+.economy-number {
+    background-color: #f9f9ff;
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.economy-number h2 {
+    margin-top: 40px;
+}
+
+.economy-shadow {
+    background-color: #fff;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    border-radius: 5px;
+}
+
+
+/*  Team Section  */
+
+.about-item {
+    margin-top: 90px;
+}
+
+.about-item .card img {
+    width: 100px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+
+/*  Contact Section CSS  */
+
+.contact-form-div .card {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+    padding: 30px;
+}
+
+.footer-bottom {
+    background-color: #04091e;
+}
+
+.footer-bottom .copyright-name a {
+    text-decoration: none;
+    color: rgb(219, 79, 36);
+    transition: .4s;
+}
+
+.footer-bottom .copyright-name a:hover {
+    color: aqua;
+}
+
+
+/* Responsive css */
+
+@media (max-width:1200px) {
+    .details-text-right {
+        margin-top: 0;
+    }
+}
+
+@media (max-width:992px) {
+    .about-text-left {
+        margin-top: 85px;
+    }
+    .extra-mb {
+        margin-bottom: 23px;
+    }
+    .navbar {}
+    .menu-nav {
+        /* position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%; */
+    }
+    .menu-nav ul.navbar-nav {
+        padding-left: 0 !important;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width:500px) {}
